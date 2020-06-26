@@ -46,8 +46,17 @@ app.use("/api",braintreeRoutes);
 
 const port = process.env.PORT || 8000;
 
-if (process.env.NODE_ENV === 'production'){
-    app.use(express.static('frontend/build'));
+if(process.env.NODE_ENV){
+    app.use(express.static('./frontend/build'))
+
+    app.get('/*', function(req, res) {
+        res.sendFile(path.join(__dirname, './frontend/build/index.html'), function(err) {
+            if (err) {
+                res.status(500).send(err)
+            }
+        })
+    })
+
 }
 
 app.listen(port, () => {
