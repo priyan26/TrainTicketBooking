@@ -1,4 +1,4 @@
-import { API } from "../config";
+import { API } from "../Config";
 import queryString from "query-string";
 
 export const getTrains = sortBy => {

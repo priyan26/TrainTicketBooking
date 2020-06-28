@@ -1,4 +1,4 @@
-import { API } from '../config';
+import { API } from '../Config';
 
 export const createCategory = (userId, token, category) => {
     return fetch(`${API}/category/create/${userId}`, {
