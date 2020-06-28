@@ -26,7 +26,7 @@ const Routes = () => {
                 <Route path="/signup" exact component={Signup} />
                 <PrivateRoute path="/user/dashboard" exact component={Dashboard} />
                 <AdminRoute path="/admin/dashboard" exact component={AdminDashboard} />
-                <AdminRoute path="/create/category" exact component={AddCategory} />
+                <AdminRoute path="/category/create" exact component={AddCategory} />
                 <AdminRoute path="/create/train" exact component={AddTrain} />
                 <Route path="/train/:trainId" exact component={Train} />
                 <Route path="/cart" exact component={Cart} />

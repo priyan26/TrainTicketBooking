@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.eca7d8a6.chunk.css",
-    "main.js": "/static/js/main.12d906b1.chunk.js",
-    "main.js.map": "/static/js/main.12d906b1.chunk.js.map",
+    "main.js": "/static/js/main.a00bd72f.chunk.js",
+    "main.js.map": "/static/js/main.a00bd72f.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.48710569.chunk.js": "/static/js/2.48710569.chunk.js",
     "static/js/2.48710569.chunk.js.map": "/static/js/2.48710569.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8bd28442ab5eb54487342c973b4114c0.js": "/precache-manifest.8bd28442ab5eb54487342c973b4114c0.js",
+    "precache-manifest.f2092b9b58ad53f30ffb2f65d9448f57.js": "/precache-manifest.f2092b9b58ad53f30ffb2f65d9448f57.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.eca7d8a6.chunk.css.map": "/static/css/main.eca7d8a6.chunk.css.map",
     "static/media/fixedPrices": "/static/media/fixedPrices.80734fc4.bin"
