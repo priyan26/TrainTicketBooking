@@ -124,7 +124,7 @@ const Checkout = ({ trains, setRun = f => f, run = undefined }) => {
         <div onBlur={() => setData({ ...data, error: '' })}>
             {data.clientToken !== null && trains.length > 0 ? (
                 <div>
-                    <div className="gorm-group mb-3">
+                    <div className="form-group mb-3">
                         <label className="text-muted">Delivery address:</label>
                         <textarea
                             onChange={handleAddress}
@@ -132,6 +132,7 @@ const Checkout = ({ trains, setRun = f => f, run = undefined }) => {
                             value={data.address}
                             placeholder="Type your delivery address here..."
                         />
+                        <DropIn/>
                     </div>
 
                     <DropIn
